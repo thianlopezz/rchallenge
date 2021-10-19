@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html,
 body {
   margin: 0;
@@ -23,9 +27,9 @@ code {
   margin: 0;
 }
 
-* + * {
-  margin-top: 1rem;
-}
+// * + * {
+//   margin-top: 1rem;
+// }
 
 h1,
 h2,
